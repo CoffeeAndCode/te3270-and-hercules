@@ -1,0 +1,14 @@
+AllCops:
+  TargetRubyVersion: 2.4
+
+Layout/EndOfLine:
+  EnforcedStyle: crlf
+
+Style/HashEachMethods:
+  Enabled: true
+
+Style/HashTransformKeys:
+  Enabled: true
+
+Style/HashTransformValues:
+  Enabled: true
