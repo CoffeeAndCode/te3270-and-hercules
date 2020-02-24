@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/coffeeandcode/te3270.git
-  revision: f0996078e13ad5e8ae8c9909b4f0680b8641b07e
+  revision: 12b9148b65051761490afce76ceec22b80166be8
   branch: bluezone
   specs:
     te3270 (0.8.1)
@@ -64,7 +64,7 @@ GEM
     rake (13.0.1)
     rautomation (1.0.0)
       ffi (~> 1.11.0)
-    regexp_parser (1.6.0)
+    regexp_parser (1.7.0)
     require_all (3.0.0)
     rexml (3.2.4)
     rspec (3.9.0)
