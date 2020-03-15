@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/coffeeandcode/te3270.git
-  revision: 12b9148b65051761490afce76ceec22b80166be8
+  revision: d89cfcb1bfc0bf0451dcbcae80b1acf0ec0d453e
   branch: bluezone
   specs:
     te3270 (0.8.1)
@@ -89,7 +89,7 @@ GEM
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 1.4.0, < 1.7)
     ruby-progressbar (1.10.1)
-    rubyzip (2.2.0)
+    rubyzip (2.3.0)
     selenium-webdriver (3.142.7)
       childprocess (>= 0.5, < 4.0)
       rubyzip (>= 1.2.2)

@@ -6,6 +6,8 @@ Before('@bluezone') do
   @emulator = TE3270.emulator_for :bluezone do |platform|
     platform.session_file = "#{__dir__}/MAINFRAME.zmd".gsub('/', '\\')
     platform.window_state = :normal
+    platform.write_errors_to_ignore = [6]
+    platform.write_method = :char
     platform.visible = true
   end
 end

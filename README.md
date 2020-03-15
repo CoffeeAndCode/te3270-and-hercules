@@ -98,6 +98,22 @@ Feature: Running tests against a 3270 terminal emulator
 
 ## Tips and Tricks
 
+### BlueZone Host Automation Object Documentation
+
+Docmentation can be found at https://www3.rocketsoftware.com/bluezone/help/v71/en/bzsh/bzaa/source/bzaa_acon_bz-host-automation-object.htm
+
+You can also find [error codes](https://www3.rocketsoftware.com/bluezone/help/v71/en/bzsh/bzaa/source/bzaa_aref_error-codes.htm)
+that you can use to ignore more error codes while writing to the screen in `:char`
+write mode.
+
+```ruby
+@emulator = TE3270.emulator_for :bluezone do |platform|
+  platform.session_file = "#{__dir__}/MAINFRAME.zmd".gsub('/', '\\')
+  platform.write_errors_to_ignore = [6]
+  platform.write_method = :char
+end
+```
+
 ### Extra Terminal Emulator Config Setup
 
 When you open an Extra! terminal emulator and disconnect from the server,
