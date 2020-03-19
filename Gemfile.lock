@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/coffeeandcode/te3270.git
-  revision: d89cfcb1bfc0bf0451dcbcae80b1acf0ec0d453e
+  revision: 4dd38301147ebe2dec902ad6b95ee5619cb1bd32
   branch: bluezone
   specs:
     te3270 (0.8.1)
