@@ -109,7 +109,7 @@ write mode.
 ```ruby
 @emulator = TE3270.emulator_for :bluezone do |platform|
   platform.session_file = "#{__dir__}/MAINFRAME.zmd".gsub('/', '\\')
-  platform.write_errors_to_ignore = [6]
+  platform.write_errors_to_ignore = [5, 6]
   platform.write_method = :char
 end
 ```
