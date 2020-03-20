@@ -6,7 +6,7 @@ gem 'cucumber'
 gem 'rake'
 gem 'require_all'
 gem 'rspec'
-gem 'te3270', branch: 'bluezone', github: 'coffeeandcode/te3270'
+gem 'te3270'
 gem 'win32screenshot'
 
 group :development do
